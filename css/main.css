@@ -1,0 +1,104 @@
+/* This is my CSS File */
+
+body {
+   font-size: 1rem;
+   font-family: "Open Sans", Arial, sans-serif;
+}
+
+h1 { font-size: 2.5rem }
+h2 { font-size: 2rem }
+h3 { font-size: 1.75rem }
+h4 { font-size: 1.5rem }
+h5 { font-size: 1.25rem }
+h6 { font-size: 1rem }
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Open Sans", Arial, sans-serif;
+   color: grey !important;
+   margin-bottom:.75rem;
+   font-weight: 500;
+}
+
+p, ul, ol, li, td, tr {
+   font-size: 1rem !important;
+}
+
+.wrapper {
+   width: 982px;
+   margin: 0px auto;
+   padding: 20px;
+}
+
+.content {
+   padding: 20px;
+   margin: 20px;
+}
+
+nav, footer {
+   padding: 15px;
+}
+
+nav {
+   border-bottom: 1px solid grey; /* This is a shortcut which combines several properties */
+   text-align: right;
+}
+
+footer {
+   border-top: 1px solid grey; /* This is a shortcut which combines several properties */
+   clear: both;
+   margin-top: 100px;
+}
+
+nav ul {
+   list-style-type: none;
+}
+
+#header-name {
+   text-align: left;
+   color: red !important;
+}
+
+nav ul li {
+   display: inline-block;
+   width: 100px;
+   text-align: center;
+}
+
+#homepage-picture {
+   width: 200px;
+   float: left;
+   margin-right: 15px;
+   padding: 8px;
+}
+
+#homepage-content {
+   width: 650px;
+   float: right;
+}
+
+#research-content {
+   width: 100%;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+   color: blue;
+   text-decoration: none;
+}
+
+nav a {
+   display:block;   
+}
+
+nav li {
+   padding: 10px;
+   border: 1px solid grey !important;
+   border-radius: 4px;
+}
+
+nav li:hover {
+   background: #eeeeee;
+}
